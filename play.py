@@ -32,14 +32,12 @@ import sys
 import time
 import socket
 
-import configuration_manager as cm
 
 from bootstrap import *
 #need to move to config mgr
 port = 8888
 
 # Configurations - TODO(todd): Move more of this into configuration manager
-_CONFIG = cm.CONFIG
 led = LEDStrip(159)
 led.fillRGB(255,0,0)
 led.update()
