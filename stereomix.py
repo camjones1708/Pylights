@@ -138,13 +138,15 @@ def stereomix_show():
             
             data = stream.read(CHUNK_SIZE)
             matrix = calculate_levels(data, sample_rate, frequency_limits)
-                
+            c = c + .1
+            if c > 384:
+                c = 0
             for i in range(0, GPIOLEN):
             # Calculate output pwm, where off is at 0.5 std below the mean
             # and full on is at 0.75 std above the mean.
                 test = test + 1
                 col,height =  display_column(i,matrix[i])
-                data = str(col) + "=" + str(int(round(height)))
+                data = str(col) + "=" + str(int(round(height)))+ "=" + str(c)
                 s.sendto(data, ("192.168.1.100", port))
             
                 #uncomment line below if you want to see the 'data' being streamed

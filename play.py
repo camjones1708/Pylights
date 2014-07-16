@@ -78,9 +78,7 @@ try:
         led.fill(Color(0,0,0),0,151)
         
         
-        c = c + .1
-       	if c > 384:
-       		c = 0
+        
 
         for i in range(0,4):
        		
@@ -88,7 +86,7 @@ try:
             #import data
             data, addr = s.recvfrom(2048)
             #split data
-            col,height = data.split("=")
+            col,height,c = data.split("=")
             color = wheel_color(int(c))
             #choose where to write out to
             if col == "0":        
