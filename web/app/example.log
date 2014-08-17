@@ -1,0 +1,28 @@
+INFO:werkzeug:162.253.66.74 - - [16/Aug/2014 19:10:20] "GET / HTTP/1.0" 302 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:04] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:04] "GET /back HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:09] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:17] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:18] "GET /back HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:21] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:12:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'flaskr.py', reloading
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:26:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:26:59] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:26:59] "GET /back HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:27:00] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:27:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:27:06] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:27:07] "GET /back HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:27:22] "POST /action HTTP/1.1" 302 -
+INFO:werkzeug:192.168.1.90 - - [16/Aug/2014 19:27:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'flaskr.py', reloading
+2014-08-16 19:41:18,124 192.168.1.90 - - [16/Aug/2014 19:41:18] "GET /index HTTP/1.1" 200 -
+2014-08-16 19:41:18,813 192.168.1.90 - - [16/Aug/2014 19:41:18] "GET /static/style.css HTTP/1.1" 304 -
+2014-08-16 19:41:23,646 192.168.1.90 - - [16/Aug/2014 19:41:23] "POST /action HTTP/1.1" 302 -
+2014-08-16 19:41:23,963 192.168.1.90 - - [16/Aug/2014 19:41:23] "GET /back HTTP/1.1" 200 -
+2014-08-16 22:09:28,410 162.253.66.74 - - [16/Aug/2014 22:09:28] "GET / HTTP/1.0" 302 -

@@ -1,0 +1,221 @@
+body{
+    background-image: url('background.jpeg');
+    background-repeat: repeat;
+}
+
+.Messageclass{
+    text-shadow:1px 1px 0 rgba(0,0,0,0.4);
+    font-weight:normal;
+    color:#FFFFFF;
+    font-size:20px;
+    font-family:Ubuntu;
+    line-height:2;
+}
+.button1 {
+    -moz-box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+    background: -moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+    background-color: #9dce2c;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    text-indent: 0px;
+    border: 2px solid #83c41a;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    height: 50px;
+    line-height: 50px;
+    width: 141px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #689324;
+}
+
+.button1:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+    background: -moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+    background-color: #8cb82b;
+}
+
+.button1:active {
+    position: relative;
+    top: 1px;
+}
+.button2 {
+-moz-box-shadow: inset 0px 1px 0px 0px #f29c93;
+-webkit-box-shadow: inset 0px 1px 0px 0px #f29c93;
+box-shadow: inset 0px 1px 0px 0px #f29c93;
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+background-color: #fe1a00;
+-webkit-border-top-left-radius: 0px;
+-moz-border-radius-topleft: 0px;
+border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topright: 20px;
+border-top-right-radius: 20px;
+-webkit-border-bottom-right-radius: 0px;
+-moz-border-radius-bottomright: 0px;
+border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-left-radius: 20px;
+text-indent: 0px;
+border: 2px solid #d83526;
+display: inline-block;
+color: #ffffff;
+font-family: Ubuntu;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+height: 50px;
+line-height: 50px;
+width: 141px;
+text-decoration: none;
+text-align: center;
+text-shadow: 1px 1px 0px #b23e35;
+}
+
+.button2:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+    background: -moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+    background-color: #ce0100;
+}
+
+.button2:active {
+    position: relative;
+    top: 1px;
+}
+.button3 {
+-moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+-webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #003a73) );
+background: -moz-linear-gradient( center top, #79bbff 5%, #003a73 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#003a73');
+background-color: #79bbff;
+-webkit-border-top-left-radius: 0px;
+-moz-border-radius-topleft: 0px;
+border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topright: 20px;
+border-top-right-radius: 20px;
+-webkit-border-bottom-right-radius: 0px;
+-moz-border-radius-bottomright: 0px;
+border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-left-radius: 20px;
+text-indent: 0px;
+border: 2px solid #84bbf3;
+display: inline-block;
+color: #ffffff;
+font-family: Ubuntu;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+height: 50px;
+line-height: 50px;
+width: 141px;
+text-decoration: none;
+text-align: center;
+text-shadow: 1px 1px 0px #528ecc;
+}
+
+.button3:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #003a73), color-stop(1, #79bbff) );
+    background: -moz-linear-gradient( center top, #003a73 5%, #79bbff 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003a73', endColorstr='#79bbff');
+    background-color: #003a73;
+}
+
+.button3:active {
+    position: relative;
+    top: 1px;
+}
+.button4 {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+    background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+    background-color:#ffc477;
+    -webkit-border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -webkit-border-top-right-radius:20px;
+    -moz-border-radius-topright:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+    border:2px solid #eeb44f;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    height: 50px;
+    line-height: 50px;
+    width: 141px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow:1px 1px 0px #cc9f52;
+}
+.button4:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+    background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+    background-color:#fb9e25;
+}.button4:active {
+    position:relative;
+    top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+/* Can be any width and height */
+.block {
+    height: 500px;
+    text-align: center;
+}
+
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can be any width or height */
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}

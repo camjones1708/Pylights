@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+
+</head>
+<div class="block">
+	
+    <div class="centered">
+	<div class="Titleclass">PyLights Control</div>	
+        {% block body %}{% endblock %}
+    </div>
+    <style>
+    .Titleclass{
+	    text-shadow:1px 1px 0 rgba(0,0,0,0.4);
+	    font-weight:normal;
+	    color:#FFFFFF;
+	    font-size:32px;
+	    font-family: Ubuntu, sans-serif;
+	    line-height:2;
+	}
+    </style>
+</div>
+<head><meta name="viewport" content="width=device-width,minimum-scale=1.0"/>
+
+
+</body>
+</html>
